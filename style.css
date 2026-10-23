@@ -132,7 +132,7 @@ h1{ font-size: clamp(30px, 4vw, 48px); margin: 0 0 10px; line-height:1.15; }
   border:1px solid var(--border);
   box-shadow: var(--shadow);
   object-fit: contain;   /* ⬅️ សំខាន់! មិនកាត់រូប */
-  background: #5c7dff;      /* ឲ្យស្អាត */
+  background: #5a7bff;      /* ឲ្យស្អាត */
   display: block;
 }
 /* Fix long email/links overflow */
@@ -312,9 +312,6 @@ body{
 .header{
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
-}
-@media (max-width: 520px){
-  .menu a[href="#experience"]{ display:none; }
 }
 
 
